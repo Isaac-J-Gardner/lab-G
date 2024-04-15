@@ -27,7 +27,7 @@ int main(void) {
         printf("Error!");
         return 1;
     }
-    printf("max = %0.2lf", max_val);
+    printf("%0.2lf", max_val);
 
 
     return 0;
