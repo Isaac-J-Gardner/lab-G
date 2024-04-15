@@ -23,6 +23,10 @@ int main(void) {
 
 	find_max_less_than_10(numbers, 20, &max_val);
 
+    if(max_val == 0){
+        printf("Error!");
+        return 1;
+    }
     printf("max = %lf", max_val);
 
 
